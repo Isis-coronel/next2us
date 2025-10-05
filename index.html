@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>NEX2US — Urban Climate & Orbital Intelligence Platform</title>
+    <meta name="description" content="NEX2US transforms NASA satellite data into predictive climate and orbital intelligence. Forecast wildfires, floods, droughts, and debris risks with NASA-backed precision. Built in California — made for Earth.">
+    <meta name="keywords" content="NASA satellite data, LEO analytics, climate intelligence, wildfire forecasting, drought prediction, orbital debris monitoring, California climate risk, AI climate dashboard, space data commercialization">
+    
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="NEX2US — Urban Climate & Orbital Intelligence Platform">
+    <meta property="og:description" content="See the Future Before It Hits — Powered by NEX2US.">
+    <meta property="og:image" content="https://picsum.photos/1200/630?random=1">
+    <meta property="og:url" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NEX2US — Urban Climate & Orbital Intelligence Platform">
+    <meta name="twitter:description" content="See the Future Before It Hits — Powered by NEX2US.">
+    <meta name="twitter:image" content="https://picsum.photos/1200/630?random=1">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'navy': '#0E1A2B',
+              'teal': '#00B8A9',
+              'light': '#F5F7FA',
+              'amber': '#FFC15E',
+              'navy-light': '#1A2B42',
+            },
+            fontFamily: {
+              'sans': ['Inter', 'sans-serif'],
+              'display': ['Montserrat', 'sans-serif'],
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 1s ease-out forwards',
+              'slow-spin': 'spin 50s linear infinite',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              },
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.3"
+  }
+}
+</script>
+</head>
+  <body class="bg-navy text-light font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
